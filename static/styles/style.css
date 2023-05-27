@@ -1,0 +1,234 @@
+body {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    margin: 0;
+}
+
+.nav-bar {
+    width: 100%;
+    height: 44px;
+    background-color: rgba(0, 0, 0, 0.8);
+    
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 11px;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    color: #d0d0d0;
+    margin-right: 36px;
+}
+
+.nav-link:last-child {
+    margin-right: 0;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.items-nav-bar {
+    background-color: #fbfbfd;
+}
+
+.items-holder {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+.item {
+    text-align: center;
+    margin-right: 30px;
+    text-decoration: none;
+    color: #1d1d1f;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.item p {
+    font-size: 12px;
+    font-weight: 300;
+    margin: 5px;
+    letter-spacing: 0.05em;
+}
+
+.main-theme-text {
+    text-align: center;
+    margin-top: 110px;
+}
+
+.main-theme-text h1 {
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: .009em;
+    margin: 5px 0;
+}
+
+.main-theme-text h2 {
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: .003em;
+    margin: 0;
+    margin-bottom: 23px;
+}
+
+.main-theme-text a {
+    font-size: 21px;
+    font-weight: 350;
+    letter-spacing: .022em;
+    color: #06c;
+    text-decoration: none;
+}
+
+.main-theme-text a:hover {
+    text-decoration: underline;
+}
+
+.main-image {
+    text-align: center;
+    border-bottom: 10px solid #fbfbfd;
+    margin-top: 33px;
+}
+
+.phone-section {
+    background-image: url(../images/phone.png);
+    background-size: cover;
+    height: 580px;
+}
+
+.phone-text {
+    text-align: center;
+}
+
+.phone-text h2 {
+    margin: 0;
+    padding-top: 50px;
+    font-size: 56px;
+    font-weight: 500;
+    color: #f5f5f7;
+}
+
+.phone-text h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    color: #fec2eb;
+    margin-bottom: 13px;
+}
+
+.phone-text a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 300;
+    color: #2997ff;
+}
+
+.phone-text a:hover {
+    text-decoration: underline;
+}
+
+.watch-section {
+    border-top: 10px solid #fbfbfd;
+    background-image: url(../images/watch.png);
+    background-size: cover;
+    height: 580px;
+}
+
+.watch-text {
+    padding-top: 115px;
+    text-align: center;
+}
+
+.watch-text h3 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 13px;
+}
+
+.watch-text a {
+    text-decoration: none;
+    font-size: 21px;
+    font-weight: 300;
+    color: #06c;
+}
+
+.watch-text a:hover {
+    text-decoration: underline;
+}
+
+.cards {
+    text-align: center;
+}
+
+.cards-holder {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card {
+    padding: 10px;
+}
+
+footer {
+    background-color: #f5f5f7;
+    padding: 10px 150px;
+}
+
+.footer-text {
+    font-size: 12px;
+    color: #6e6e73;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.footer-services {
+    display: grid;
+    grid-template-columns: 21% 21% 21% 21% 21%;
+    margin-left: -40px;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.footer-services li {
+    font-size: 14px;
+    color: black;
+    list-style-type: none;
+    padding: 5px 0;
+}
+
+.footer-services li a{
+    color: #6e6e73;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.footer-services li a:hover {
+    text-decoration: underline;
+}
+
+.rights {
+    font-size: 12px;
+    color: #6e6e73;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rights a {
+    color: #6e6e73;
+    text-decoration: none;
+}
+
+.rights a:hover {
+    text-decoration: underline;
+}
